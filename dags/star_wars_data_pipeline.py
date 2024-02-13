@@ -8,3 +8,7 @@ from datetime import datetime, timedelta
 # Adiciona o diretório utils ao path para permitir importações dos scripts.
 import sys
 sys.path.append('/opt/airflow/dags/utils')
+
+# Importa as funções dos scripts localizados no diretório utils.
+from script_request import main as main
+from script_results import generate_results_json as generate_results_json
