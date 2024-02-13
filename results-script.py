@@ -43,7 +43,9 @@ def generate_results_json():
     final_object = {"results": results}
 
     # cria o arquivo 'results.json' e escreve os dados no formato JSON.
-    with open('results2.json', 'w', encoding='utf-8') as f:
+    # Especifica o caminho para salvar o arquivo 'results2.json' em '/opt/airflow'.
+    output_path = r'results/results2.json'
+    with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(final_object, f,ensure_ascii=False, indent=4)
 
 # executa função
