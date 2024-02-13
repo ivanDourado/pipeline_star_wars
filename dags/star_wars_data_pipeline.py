@@ -33,3 +33,6 @@ with DAG('star_wars_data_pipeline', default_args=default_args) as dag:
         task_id='create_results_json',
         python_callable=generate_results_json,
     ) 
+    # Define a ordem de execução das tarefas usando o operador de bitshift.
+    # As tarefas de extração de dados serão executadas antes da tarefa de processamento.
+    extract >> results   
