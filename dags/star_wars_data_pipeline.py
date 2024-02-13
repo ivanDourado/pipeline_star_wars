@@ -28,3 +28,8 @@ with DAG('star_wars_data_pipeline', default_args=default_args) as dag:
         task_id='extract_and_save_all_data',
         python_callable=main,
     )
+    # Cria outra tarefa para processar os dados e criar o arquivo results no formato pedido
+    results  = PythonOperator(
+        task_id='create_results_json',
+        python_callable=generate_results_json,
+    ) 
