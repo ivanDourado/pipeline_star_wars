@@ -20,3 +20,11 @@ default_args = {
     'schedule_interval': None,
     'retries': 5,  # Define o número de tentativas de reexecução em caso de falha.
 }
+
+# Cria uma instância DAG, que é um conjunto de tarefas organizadas com dependências e cronograma.
+with DAG('star_wars_data_pipeline', default_args=default_args) as dag:
+    # Cria uma tarefa usando PythonOperator para extrair dados e salvá-los.
+    extract = PythonOperator(
+        task_id='extract_and_save_all_data',
+        python_callable=main,
+    )
