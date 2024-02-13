@@ -4,8 +4,8 @@ from pathlib import Path  # Importa a classe Path do módulo pathlib para manipu
 
 def generate_results_json():
     # Define os caminhos para as pastas que contêm os dados das pessoas e filmes.
-    people_path = Path(r"C:\Users\User\Desktop\ivan_processos\blu\star_wars\people\2014")
-    films_path = Path(r"C:\Users\User\Desktop\ivan_processos\blu\star_wars\films\2014")
+    people_path = Path(r"people/2014")
+    films_path = Path(r"films/2014")
 
     # Inicializa uma lista vazia para armazenar os resultados finais.
     results = []
