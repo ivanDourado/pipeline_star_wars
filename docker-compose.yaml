@@ -73,6 +73,10 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ${AIRFLOW_PROJ_DIR:-.}/films:/opt/airflow/films
+    - ${AIRFLOW_PROJ_DIR:-.}/people:/opt/airflow/people
+    - ${AIRFLOW_PROJ_DIR:-.}/vehicles:/opt/airflow/vehicles
+    - ${AIRFLOW_PROJ_DIR:-.}/results:/opt/airflow/results
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
