@@ -34,13 +34,13 @@ with DAG('star_wars_data_pipeline', default_args=default_args) as dag:
     # Cria uma tarefa usando PythonOperator para extrair dados e salvá-los.
     extract = PythonOperator(
         task_id='extract_and_save_all_data',
-        python_callable=main,
+        python_callable=extract_and_save_json,
     )
-    # Cria outra tarefa para processar os dados e criar o arquivo results no formato pedido
+    # Cria uma tarefa para processar os dados e criar o arquivo results no formato pedido
     results  = PythonOperator(
         task_id='create_results_json',
         python_callable=generate_results_json,
-    ) 
+    )    
     # Define a ordem de execução das tarefas usando o operador de bitshift.
     # As tarefas de extração de dados serão executadas antes da tarefa de processamento.
     extract >> results   
