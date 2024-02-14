@@ -3,6 +3,7 @@ logs/
 films/*
 people/*
 vehicles/*
+results/*
 *.json
 *.pyc
 __pycache__/
