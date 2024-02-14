@@ -1,0 +1,178 @@
+[2024-02-13T18:56:15.735+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-02-13T18:56:15.736+0000] {manager.py:470} INFO - Process each file at most once every 5 seconds
+[2024-02-13T18:56:15.737+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 20 seconds
+[2024-02-13T18:56:15.738+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:56:15.806+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:56:15.901+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/star_wars_data_pipeline.py     49  0.05s             0           0
+================================================================================
+[2024-02-13T18:56:35.989+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:56:36.042+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:56:46.474+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.13s           2024-02-13T18:56:43
+================================================================================
+[2024-02-13T18:56:56.773+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:56:56.843+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:57:17.344+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:57:17.396+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:57:17.407+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.10s           2024-02-13T18:57:14
+================================================================================
+[2024-02-13T18:57:37.868+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:57:37.924+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:57:48.121+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.12s           2024-02-13T18:57:45
+================================================================================
+[2024-02-13T18:57:58.408+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:57:58.483+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:58:18.964+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:58:19.032+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:58:19.050+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.09s           2024-02-13T18:58:16
+================================================================================
+[2024-02-13T18:58:39.493+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:58:39.545+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:58:49.735+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.09s           2024-02-13T18:58:46
+================================================================================
+[2024-02-13T18:58:59.993+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:59:00.063+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:59:20.529+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:59:20.591+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:59:20.604+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.09s           2024-02-13T18:59:17
+================================================================================
+[2024-02-13T18:59:41.046+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T18:59:41.099+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T18:59:51.336+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.10s           2024-02-13T18:59:48
+================================================================================
+[2024-02-13T19:00:01.613+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:00:01.665+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:00:22.165+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:00:22.235+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:00:22.249+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.10s           2024-02-13T19:00:19
+================================================================================
+[2024-02-13T19:00:42.917+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:00:43.004+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:00:52.255+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.12s           2024-02-13T19:00:50
+================================================================================
+[2024-02-13T19:01:03.603+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:01:03.705+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:01:22.334+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.13s           2024-02-13T19:01:21
+================================================================================
+[2024-02-13T19:01:24.347+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:01:24.422+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:01:45.141+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:01:45.225+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:01:52.441+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py    322  0.01s             0           1  0.11s           2024-02-13T19:01:47
+================================================================================
+[2024-02-13T19:02:05.868+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:02:05.981+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:02:22.572+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.13s           2024-02-13T19:02:18
+================================================================================
+[2024-02-13T19:02:26.619+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:02:26.725+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:02:46.625+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:02:46.736+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:02:52.823+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.12s           2024-02-13T19:02:49
+================================================================================
+[2024-02-13T19:03:07.367+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:03:07.441+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:03:22.926+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.16s           2024-02-13T19:03:21
+================================================================================
+[2024-02-13T19:03:28.127+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:03:28.242+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:03:48.241+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-13T19:03:48.327+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-02-13T19:03:53.516+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/star_wars_data_pipeline.py                           0           1  0.15s           2024-02-13T19:03:52
+================================================================================
+[2024-02-13T19:03:56.439+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
