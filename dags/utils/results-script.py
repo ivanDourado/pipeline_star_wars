@@ -1,5 +1,4 @@
 import json  # Importa o módulo json para ler e escrever dados em formato JSON.
-import os  # Importa o módulo os que fornece uma forma portátil de usar funcionalidades dependentes do sistema operacional.
 from pathlib import Path  # Importa a classe Path do módulo pathlib para manipulação de caminhos de sistema de arquivos.
 
 def generate_results_json():
