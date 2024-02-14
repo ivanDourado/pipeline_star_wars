@@ -1,6 +1,8 @@
 import requests # Importa a biblioteca para fazer requisições HTTP
 import json # Importa a biblioteca para manipular dados no formato JSON
 from pathlib import Path # Importa a classe Path para manipular caminhos de arquivos/diretórios
+import csv  # Usada para escrever em arquivos CSV.
+from datetime import datetime  # Usada para trabalhar com datas e horas.
 
 
 def fetch_all_data_from_endpoint(endpoint):
