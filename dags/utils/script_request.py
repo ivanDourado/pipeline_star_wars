@@ -19,6 +19,7 @@ def fetch_all_data_from_endpoint(endpoint):
         else: # Se a requisição falhou
             print("Falha na requisição: Status", response.status_code)
             break # encerra o Loop
+    print('Dados coletados da API')
     return results # Retorna a lista de dados coletados
 
 def save_json(data, year, category): 
