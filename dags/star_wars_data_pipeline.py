@@ -4,6 +4,8 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 # Importa a classe datetime do módulo datetime para definir datas e horas.
 from datetime import datetime, timedelta
+# biblioteca recomendada para timezone
+import pendulum
 
 # Adiciona o diretório utils ao path para permitir importações dos scripts.
 import sys
