@@ -8,7 +8,7 @@ from datetime import datetime  # Usada para trabalhar com datas e horas.
 def fetch_all_data_from_endpoint(endpoint):
     """Coleta todos os dados paginados de um endpoint da SWAPI."""#docstring
     base_url = 'https://swapi.dev/api/' # Define a URL da API
-    results = [] # Lista para armazenar todos os ddos coletados
+    results = [] # Lista para armazenar todos os dados coletados
     url = f'{base_url}{endpoint}/' # Monta a URL do endpoint específico
     while url: # Enquanto houver uma URL para processar
         response = requests.get(url) # faz a requisiçõ à API
@@ -39,7 +39,7 @@ def main():
         data = fetch_all_data_from_endpoint(category) # Coleta dados da categoria
         for item in data: # Para cada item nos dados coletados
             created_year = item['created'][:4] # Extrai o ano da propriedade 'created'
-            save_json([item], created_year, category) # Salva o item em um arquivo JSON organizado por ano
+            save_json([item], created_year, category) # Salva o item em um arquivo JSON dentro do diretório organizado por ano
     print('Diretórios criados.')
     # Contando arquivos em cada diretório
     for categoria, caminho in categorias.items():
