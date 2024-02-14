@@ -40,7 +40,7 @@ def main():
         for item in data: # Para cada item nos dados coletados
             created_year = item['created'][:4] # Extrai o ano da propriedade 'created'
             save_json([item], created_year, category) # Salva o item em um arquivo JSON dentro do diretório organizado por ano
-    print('Diretórios criados.')
+    print('Diretórios carregados.')
     # Contando arquivos em cada diretório
     for categoria, caminho in categorias.items():
         # A função glob('*.json') retorna uma lista de todos os arquivos .json no diretório
@@ -58,7 +58,7 @@ def main():
 categorias = {
     'people': Path(r"people/2014"),
     'films': Path(r"films/2014"),
-    'vehicles': Path('vehicles/2014'),
+    'vehicles': Path(r"vehicles/2014"),
 }
 
 # execução
