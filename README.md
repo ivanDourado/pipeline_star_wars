@@ -22,14 +22,23 @@ Para garantir que o repositório permaneça limpo e inclua apenas o código-font
 
 
 .log
+
 logs/
+
 films/*
+
 people/*
+
 vehicles/*
+
 results/*
+
 *.json
+
 *.pyc
+
 pycache/
+
 plugins/
 
 
@@ -65,7 +74,7 @@ Os commits seguem o padrão [Conventional Commits](https://www.conventionalcommi
 
 ## Documentação e Comentários
 
-Apesar da redundância em alguns comentários, eles são incluídos em todo o código para fins educacionais, refletindo a transição de análise para engenharia de dados e auxiliando na assimilação do conhecimento.
+Apesar da redundância em alguns comentários, eles são incluídos em todo o código para fins educacionais, refletindo a minha transição de análise para engenharia de dados e auxiliando na assimilação do conhecimento.
 
 ## Conclusão
 
