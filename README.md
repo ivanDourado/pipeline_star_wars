@@ -1,5 +1,7 @@
 # Projeto de Pipeline de Dados Star Wars
 
+<h6>Do not speak Portuguese? <a href="https://github.com/ivanDourado/star_wars/blob/main/README-en.md">Click Here</a> to view this page in English.</h6>
+
 Este projeto envolve a criação de um processo ETL (Extract, Transform, Load) para coletar dados da API Star Wars (SWAPI), transformar os dados conforme necessário e carregar em arquivos JSON estruturados e relatórios CSV. O processo é orquestrado usando o Apache Airflow, garantindo um fluxo de trabalho escalável e gerenciável.
 
 ## Visão Geral
@@ -15,6 +17,9 @@ O projeto é estruturado em torno de três componentes principais:
 ### Configuração do .gitignore
 
 Para garantir que o repositório permaneça limpo e inclua apenas o código-fonte, os seguintes padrões são adicionados ao `.gitignore`:
+
+
+
 
 .log
 logs/
@@ -65,4 +70,3 @@ Apesar da redundância em alguns comentários, eles são incluídos em todo o c�
 ## Conclusão
 
 Este projeto exemplifica um uso básico, porém poderoso, do Airflow para automatizar o processo de pipeline de dados, desde a extração de dados de uma API externa até a transformação e carga em um formato estruturado para análise. Ele demonstra a versatilidade e capacidade do Airflow na gestão de fluxos de trabalho de dados, garantindo confiabilidade dos dados e eficiência no processamento.
-
