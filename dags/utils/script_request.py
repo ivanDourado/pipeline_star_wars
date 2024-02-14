@@ -33,6 +33,7 @@ def save_json(data, year, category):
         with open(filename, 'w', encoding='utf-8') as f: # Abre o arquivo para escrita
             json.dump(item, f, ensure_ascii=False, indent=4) # Salva o item no arquivo JSON com formatação
 
+# Função principal que executa o script.
 def main():
     for category in ['people','films','vehicles']: # Para cada categoria de interesse
         data = fetch_all_data_from_endpoint(category) # Coleta dados da categoria
