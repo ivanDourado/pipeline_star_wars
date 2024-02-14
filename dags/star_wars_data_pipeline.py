@@ -17,10 +17,16 @@ from script_results import generate_results_json as generate_results_json
 
 # Define argumentos padrão que serão passados para cada tarefa do DAG.
 default_args = {
-    'owner': 'airflow',  # Define o proprietário do DAG, geralmente 'airflow' ou o nome de usuário do criador do DAG.
-    'start_date': datetime.now() + timedelta(seconds=10) , # Define a data de início da execução do DAG.
-    'schedule_interval': None,
-    'retries': 5,  # Define o número de tentativas de reexecução em caso de falha.
+    'owner': 'airflow',  # Identifica o usuário ou entidade que possui a DAG, para fins de gestão e responsabilidade
+    'depends_on_past': False,  # Indica se uma instância de tarefa deve depender do sucesso da tarefa na execução anterior
+    'email_on_failure': False,  # Desativa o envio de emails em caso de falha da tarefa
+    'email_on_retry': False,  # Desativa o envio de emails em caso de nova tentativa após falha
+    'retries': 5,  # Define o número máximo de tentativas em caso de falha da tarefa
+    'retry_delay': timedelta(minutes=5),  # Define o intervalo de tempo entre as tentativas em caso de falha
+    # Define a data e hora de início da primeira execução da DAG, utilizando pendulum para especificar o fuso horário
+    'start_date': pendulum.datetime(2024, 2, 1, tz='America/Sao_Paulo'),
+    'schedule_interval': '0 0 * * 0',  # Define a periodicidade da execução da DAG como semanal, à meia-noite de cada domingo
+    'catchup':False,  # Impede a execução de DAGs para períodos anteriores à data atual
 }
 
 # Cria uma instância DAG, que é um conjunto de tarefas organizadas com dependências e cronograma.
