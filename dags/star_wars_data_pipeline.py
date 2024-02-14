@@ -12,7 +12,7 @@ import sys
 sys.path.append('/opt/airflow/dags/utils')
 
 # Importa as funções dos scripts localizados no diretório utils.
-from script_request import main as main
+from script_request import main as extract_and_save_json
 from script_results import generate_results_json as generate_results_json
 
 # Define argumentos padrão que serão passados para cada tarefa do DAG.
