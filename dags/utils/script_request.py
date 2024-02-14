@@ -26,7 +26,7 @@ def save_json(data, year, category):
     # Docstring
     """Salva os dados em um arquivo JSON dentro de um diretório específico do ano."""
     directory = Path(f"{category}/{year}") # Define o caminho do diretório baseado na ctegoria e no ano
-    directory.mkdir(parents=True, exist_ok=True) # Cria o diretório se ele não existir
+    directory.mkdir(parents=True, exist_ok=True) # Cria o diretório se ele não existir    
     for item in data: # Para cada item na lista de dados
         item_id = item['url'].split('/')[-2] # Extrai o ID do item a partir da URL
         filename = directory / f"{item_id}.json" # Define o nome do arquivo .json
