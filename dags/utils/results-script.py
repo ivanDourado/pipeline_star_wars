@@ -8,7 +8,7 @@ def generate_results_json():
 
     # Inicializa uma lista vazia para armazenar os resultados finais.
     results = []
-
+    print('Transformando dados...')
     # Itera sobre cada arquivo JSON na pasta people de 2014.
     for people_file in people_path.glob('*.json'):
         # Abre o arquivo JSON da pessoa atual e carrega os dados.
@@ -36,16 +36,19 @@ def generate_results_json():
                         person_dict["titles"].append(film_data["title"])
             # Adiciona o dicionário da pessoa à lista de resultados.
             results.append(person_dict)
+    print('Dados formatados')
     #teste ok
     #print(results)
     # Cria um objeto final com uma chave "results" que contém a lista de pessoas e seus filmes.
     final_object = {"results": results}
+    print('Objeto final criado.')
 
     # cria o arquivo 'results.json' e escreve os dados no formato JSON.
-    # Especifica o caminho para salvar o arquivo 'results2.json' em '/opt/airflow'.
+    # Especifica o caminho absoluto para salvar o arquivo 'results2.json' em '/opt/airflow'.
     output_path = r'results/results2.json'
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(final_object, f,ensure_ascii=False, indent=4)
+        json.dump(final_object, f, ensure_ascii=False, indent=4)
+    print('Salvando arquivo results no diretorio results')
 
 # executa função
 if __name__ == "__main__":
