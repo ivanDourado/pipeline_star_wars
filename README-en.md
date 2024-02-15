@@ -6,6 +6,9 @@ This project involves the creation of an ETL (Extract, Transform, Load) process 
 
 ## Overview
 
+![image](https://github.com/ivanDourado/star_wars/assets/85656465/132efe60-2854-4bb5-a058-2ff4011c619f)
+
+
 The project is structured around three main components:
 
 - Script for Data Extraction (`script_request.py`): Makes API requests to SWAPI to fetch data related to people, films, and vehicles. The data is then saved into JSON files organized by category and year.
