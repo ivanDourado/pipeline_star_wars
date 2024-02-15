@@ -67,9 +67,19 @@ A DAG é configurada com duas tarefas usando PythonOperator:
 
 - **Tarefa de Transformação de Dados**: Invoca uma função para transformar os dados e gerar o relatório resumo conforme `script_result.py`.
 
-## Execução
+## Instruções de Execução
 
-O processo ETL é iniciado através da interface web do Airflow após iniciar os serviços do Airflow usando Docker Compose no terminal. O progresso do fluxo de trabalho e as saídas podem ser monitorados via UI do Airflow e os logs gerados para cada tarefa.
+1. Abra um terminal e navegue até o diretório onde o arquivo `docker-compose.yaml` está localizado.
+2. Inicie os serviços do Airflow executando o comando `docker compose up -d`.
+3. Após os serviços estarem rodando, abra um navegador e acesse `http://localhost:8080` para abrir a interface web do Airflow.
+4. Faça login na interface do Airflow usando as credenciais padrão (usuário e senha `airflow`).
+5. Navegue até a seção "DAGs" na interface do Airflow.
+6. Localize a DAG `star_wars_data_pipeline` e clique para acessar seus detalhes.
+7. Ative a DAG clicando no botão de alternância ao lado do nome da DAG, se necessário.
+8. Inicie uma execução da DAG clicando no botão "Trigger DAG" e confirme a ação.
+9. Acompanhe o progresso da execução da DAG e visualize os logs para cada tarefa executada através da interface do Airflow.
+
+Siga essas instruções para executar o processo ETL e monitorar o progresso e as saídas do fluxo de trabalho do case Star Wars.
 
 ## Padrões de Commit
 
