@@ -51,9 +51,9 @@ def generate_results_json():
     # Define o caminho para salvar o arquivo de resultados.
     output_path = Path('results/results2.json')
     # Abre o arquivo para escrita, salvando os resultados no formato JSON.
-    with output_path.open('w', encoding='utf-8') as f:
-        json.dump(final_object, f, ensure_ascii=False, indent=4)
-    print('Arquivo results2 criado no formato pedido.')
+    with output_path.open('w', encoding='utf-8') as f:  # Abre o arquivo para escrita com o caminho especificado e codificação UTF-8.
+        json.dump(final_object, f, ensure_ascii=False, indent=4) # Grava o objeto final no arquivo, desabilitando a conversão ASCII e formatando o JSON para melhor leitura.
+    print('Arquivo results2 criado no formato pedido.') # print log
 
 # Executa a função principal se o script for o principal executado.
 if __name__ == "__main__":
