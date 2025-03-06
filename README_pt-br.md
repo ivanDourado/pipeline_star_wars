@@ -1,6 +1,6 @@
 # Projeto de Pipeline de Dados Star Wars
 
-<h6>Do not speak Portuguese? <a href="https://github.com/ivanDourado/star_wars/blob/main/README-en.md">Click Here</a> to view this page in English.</h6>
+<h6>Do not speak Portuguese? <a href="https://github.com/ivanDourado/star_wars/blob/main/README.md">Click Here</a> to view this page in English.</h6>
 
 Este projeto envolve a criação de um processo ETL (Extract, Transform, Load) para coletar dados da API Star Wars (SWAPI), transformar os dados conforme necessário e carregar em arquivos JSON estruturados e relatórios CSV. O processo é orquestrado usando o Apache Airflow, garantindo um fluxo de trabalho escalável e gerenciável.
 
